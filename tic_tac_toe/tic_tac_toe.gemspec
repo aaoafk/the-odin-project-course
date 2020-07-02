@@ -6,17 +6,15 @@ Gem::Specification.new do |spec|
   spec.authors       = ["xconconx"]
   spec.email         = ["sfernandez0201@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{A Tic Tac Toe module this is an improvement over the previous one. I followed the guide at https://codequizzes.wordpress.com/2013/10/25/creating-a-tic-tac-toe-game-with-ruby/}
+  spec.homepage      = "https://github.com/xconconx/the-odin-project-course/tree/tic-tac-toe-improved"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
+  spec.metadata["allowed_push_host"] = "'http://mygemserver.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-  spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata["source_code_uri"] = "https://github.com/xconconx/the-odin-project-course/tree/tic-tac-toe-improved"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
