@@ -19,6 +19,10 @@ module Mastermind
       end
     end
 
+    def set_cell(x, y, s)
+      grid[-y-1][-x-1].value = s
+    end
+
     private
     def default_grid
       Array.new(8) { Array.new(8) { Cell.new } }
