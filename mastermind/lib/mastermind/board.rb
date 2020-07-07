@@ -20,7 +20,7 @@ module Mastermind
     end
 
     def set_cell(x, y, s)
-      grid[-y-1][-x-1].value = s
+      grid[-x]
     end
 
     private
